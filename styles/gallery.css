@@ -40,9 +40,10 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    height: auto;
     background: none;
     color: var(--primary-text-color);
-    padding: 10px;
+    padding: 20px;
     border-bottom: 2px solid var(--secondary-color);
     z-index: 1;
 }
@@ -61,13 +62,20 @@ footer {
 .menu-button {
     position: absolute;
     top: 15px;
-    right: 20px;
+    right: 40px;
     background: none;
     border: none;
     font-size: 24px;
     color: var(--primary-text-color);
     cursor: pointer;
     display: block;
+}
+
+header img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 60px;
 }
 
 nav {
