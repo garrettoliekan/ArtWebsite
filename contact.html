@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles/contact.css">
+        <link rel="stylesheet" href="styles/contact-large.css" media="(min-width: 768px)">
+        <script src="scripts/home.js"></script>
+    </head>
+
+    <body>
+        <div id="background">
+            <img src="images/background_image.webp" alt="main">
+        </div>
+
+        <header>
+            <button id="menu-toggle" class="menu-button">☰</button>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Contact Me</h1>
+            <p>Email: myemail@example.com</p>
+            <p>Follow me on social media:</p>
+            <ul>
+                <li><a href="https://www.instagram.com/go_art_designs/">Instagram</a></li>
+                <li><a href="https://www.youtube.com/@GO_designs">Youtube</a></li>
+            </ul>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; <span id="currentyear"></span>Garrett Oliekan | Portfolio</p>
+            <p id="lastModified"></p>
+        </footer>
+    </body>
+</html>
